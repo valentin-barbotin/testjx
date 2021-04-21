@@ -32,6 +32,8 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: valentinb-sixense
+    repository: testjx
   - key: staging
   - key: production
   ingress:
@@ -43,6 +45,8 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: valentinb-sixense
   repository: bucketrepo
   secretStorage: local
   vault: {}
